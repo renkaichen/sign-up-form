@@ -7,35 +7,51 @@
     <title>Sign Up Form</title>
 </head>
 <body>
-    <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h1>
-    <h1>You <em>know</em> you want to.</h1>
-    <form action="get">
-        <legend>Let's do this!</legend>
-        <div id = "name">
-            <label for="firstName">First Name</label>
-            <input type="text" name="firstName" id="firstName">
+    <img src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Decorative Image">
+    <div id="form">
+        <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h1>
+        <h1>You <em>know</em> you want to.</h1>
+        <form action="get">
+            <h2>Let's do this!</h2>
+            <div id = "name">
+                <div class="entry">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName">
+                </div>
 
-            <label for="lastName">Last Name</label>
-            <input type="text" name="lastName" id="lastName">
-        </div>
-        <div id="contact">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+                <div class="entry">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+            </div>
+            <div id="contact">
+                <div class="entry">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
 
-            <label for="phoneNumber">Phone Number</label>
-            <input type="tel" name="phoneNumber" id="phoneNumber">
-        </div>
-        <div id="password">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
+                <div class="entry">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" name="phoneNumber" id="phoneNumber">
+                </div>
+            </div>
+            <div id="passwords">
+                <div class="entry" id="passwordField">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
 
-            <label for="confirmPassword">Confirm Password</label>
-            <input type="password" name="confirmPassword" id="confirmPassword">
-        </div>
+                <div class="entry" id="passwordField">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword">
+                </div>
+            </div>
 
-        <button type="submit">Create Account</button>
-    </form>
-    Already have an account?
-    <a href="">Log in</a>
+            <button type="submit">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="">Log in</a> </p>
+        
+    </div>
+    
 </body>
 </html>
